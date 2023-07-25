@@ -1,0 +1,44 @@
+.fs-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #1C1E53;
+    color: #BBBBCB;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size:  1.0416666666666667vw;
+}
+
+.fs-navbar-logo{
+    margin: 33px 0;
+    margin-left: 160px;
+}
+
+.fs-navbar-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 32px;
+}
+
+.fs-nb-item{
+    text-decoration: none;
+    color: #BBBBCB;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size:  1.0416666666666667vw;
+}
+
+.fs-nb-item.home{
+    color: #fff;
+}
+
+.fs-nb-btn-contact{
+    background: none;
+    color: #fff;
+    width: 185px;
+    height: 60px;
+    border: 2px solid rgba(244, 246, 252, 0.2);
+    border-radius: 41px;
+}
